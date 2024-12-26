@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to right, #ACE2E1, #A64D79);
+}
+
+.account-container {
+    background-color: #DC143C;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+    font-weight: bold;
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background: #ccc;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="tel"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #28a745;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+.Acc {
+    font-style: italic; 
+    font-weight: bold;
+}
+
+.login {
+    font-style: italic; 
+    font-weight: bold;
+}
+
+.login:hover {
+    color: #000000;
+}
+
+@media (max-width: 480px) {
+    .account-container {
+        padding: 15px;
+        max-width: 100%;
+    }
+
+    .account-container h2 {
+        font-size: 20px;
+    }
+
+    .account-container input {
+        padding: 8px;
+        font-size: 14px;
+    }
+
+    .account-container button {
+        padding: 10px;
+        font-size: 14px;
+    }
+}

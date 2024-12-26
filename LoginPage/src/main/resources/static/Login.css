@@ -1,0 +1,134 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling with Gradient Background */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(to right, #ACE2E1, #A64D79); /* Gradient from purple to blue */
+}
+
+/* Login Container Styling */
+.login-container {
+    background-color: #DC143C;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgb(60, 60, 60);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+	align-items : center;
+}
+
+/* Heading Styling */
+.login-container h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Label Styling */
+.login-container label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 600;
+    color: #333;
+    text-align: center; /* Align labels to the left */
+}
+
+/* Input Field Styling */
+.login-container input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    color: #333;
+    background-color: #f9f9f9;
+}
+
+.login-container input:focus {
+    border-color: #4CAF50;
+    background-color: #fff;
+    outline: none;
+}
+
+/* Button Styling */
+.login-container button {
+    width: 100%;
+    padding: 12px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.login-container button:hover {
+    background-color: #45a049;
+}
+
+/* Forgot Password Link Styling (Italic) */
+.login-container .forgot-password {
+    display: block;
+    text-align: center;
+    margin-top: 15px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #ffff;
+    text-decoration: none;
+    font-style: italic; /* Italicize the text */
+}
+
+.login-container .forgot-password:hover {
+    text-decoration: underline;
+    color : #00224D;
+}
+
+.new{
+	font-style: italic; 
+		font-weight: bold;
+}
+
+.register{
+	font-style: italic; 
+	font-weight: bold;
+}
+
+.register:hover{
+     color : #000000 ;
+}
+
+/* Responsive Design for Mobile View */
+@media (max-width: 480px) {
+    .login-container {
+        padding: 15px;
+        max-width: 100%;
+    }
+
+    .login-container h2 {
+        font-size: 20px;
+    }
+
+    .login-container input {
+        padding: 8px;
+        font-size: 14px;
+    }
+
+    .login-container button {
+        padding: 10px;
+        font-size: 14px;
+    }
+}

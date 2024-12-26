@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Page</title>
+    <link rel="stylesheet" href="/Test.css">
+    <script src="Test.js"></script>
+</head>
+<body>
+    <div class="account-container">
+        <h2>TEST</h2>
+        <hr>
+        
+        <form id="accountId" onsubmit="handleAccount(event)">
+            <label for="firstname">First Name</label>
+            <input type="text" id="firstname" name="firstname" required>
+            
+            <label for="lastname">Last Name</label>
+            <input type="text" id="lastname" name="lastname" required>
+            
+            <label for="age">Age</label>
+            <input type="text" id="age" name="age" required>
+           
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" name="phone" required>
+            
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" required>
+            
+            <br>
+            <br>
+            
+            <button type="submit">Submit</button>
+            
+            <hr>
+            
+        </form>
+           
+           <p id = "responseMessage"></p>
+        
+    </div>
+</body>
+</html>

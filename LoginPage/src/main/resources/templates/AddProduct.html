@@ -1,0 +1,34 @@
+<!-- src/main/resources/templates/AddProduct.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Products</title>
+    <link rel="stylesheet" href="/AddProducts.css">
+    <script src="/AddProducts.js" defer></script>
+</head>
+<body>
+    <div class="add-products-container">
+        <h2>Add Multiple Products</h2>
+        <form id="addProductsForm" onsubmit="handleAddProducts(event)">
+            <div id="productFields">
+                <!-- Template for product input -->
+                <div class="product-item">
+                    <label for="productName1">Product Name</label>
+                    <input type="text" id="productName1" name="productName" required>
+
+                    <label for="productPrice1">Price</label>
+                    <input type="number" id="productPrice1" name="productPrice" required>
+
+                    <label for="productDescription1">Description</label>
+                    <textarea id="productDescription1" name="productDescription" required></textarea>
+                </div>
+            </div>
+            <button type="button" onclick="addProductField()">Add Another Product</button>
+            <button type="submit">Add Products</button>
+        </form>
+        <div id="responseMessage"></div>
+    </div>
+</body>
+</html>

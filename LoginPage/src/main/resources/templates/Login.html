@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="/Login.css">
+	<script src = "Login.js"></script>
+</head>
+<body>
+    <div class="login-container">
+        <h2>LOGIN</h2>
+		
+		<hr>
+		
+		<br>
+		<br>
+        
+        <!-- Login form with action to submit to backend -->
+		<form id ="loginId" onsubmit="handleLogin(event)">
+
+            <label for="username">UserName</label>
+            <input type="text" id="username" name="username" required>
+            
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" required>
+            
+			<a href="/email" class="forgot-password">Forgot Password?</a>
+			
+			<br>
+					
+            <button type="submit">Login</button>
+			
+			<br>
+			<br>
+        </form>
+		
+		<hr>
+		<br>
+		<br>
+		            
+		     <p class = "new">Create New Account!</p>
+		     <a href="/register" class="register">Register</a>
+			 
+			 <p id = "responseMessage"></p>
+    </div>
+</body>
+</html>
