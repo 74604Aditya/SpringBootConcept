@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Portfolio</title>
+    
+    <link rel = "stylesheet"href="/portfolio.css">
+    
+    <script src = "/script.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="title">Portfolio of <span th:text="${user.name}">User Name</span></div>
+        <div class="content">
+            <p><strong>Bio:</strong> <span th:text="${user.bio}">User Bio</span></p>
+            <p><strong>Email:</strong> <span th:text="${user.email}">user@example.com</span></p>
+            <p><strong>Phone:</strong> <span th:text="${user.phone}">123-456-7890</span></p>
+        </div>
+        <div class="footer">
+            <div>Connect with me:</div>
+            <div class="social-icons">
+                <a href="#" th:href="@{https://www.linkedin.com/in/user}">LinkedIn</a>
+                <a href="#" th:href="@{https://github.com/user}">GitHub</a>
+                <a href="#" th:href="@{https://twitter.com/user}">Twitter</a>
+            </div>
+             <div class="button">
+        <button onclick="TestMessage()">Send Message</button>
+    </div>
+        </div>
+    </div>
+</body>
+</html>
