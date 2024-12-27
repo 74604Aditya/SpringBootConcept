@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.5, user-scalable=yes">
+    <style>
+        body {
+            background-image: url("/Gamingimg/123.jpg");
+            background-position: center center;
+        }
+
+        form {
+            text-align: center;
+        }
+
+        #container {
+            width: 300px;
+            height: 400px;
+            background-color: azure;
+            margin: 100px auto;
+            opacity: 0.8;
+            border: 5px solid tomato;
+            border-radius: 10px;
+        }
+
+        input {
+            width: 70%;
+            margin-bottom: 10px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+
+        ::placeholder {
+            text-align: center;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        button {
+            font-size: 16px;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+        }
+
+    </style>
+    <title>SignIn Form</title>
+</head>
+<body>
+    <div id="container">
+        <h1 style="text-align: center; background-color: tomato;">Log In</h1>
+        <form action="/login" method="post">
+            <div><input type="text" name="username" placeholder="Enter UserName" required></div><br>
+            <div><input type="password" name="password" placeholder="Enter Password" required></div><br>
+            <p><i>Forgot Password</i></p>
+            <div><input type="submit" value="Login" style="background-color: tomato; border-radius: 5px;"></div>
+            <p><b>Need an Account? <a href="/Signup" >Sign Up</a></b></p>
+        </form>
+    </div>
+</body>
+</html>

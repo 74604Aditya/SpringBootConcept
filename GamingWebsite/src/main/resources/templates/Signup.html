@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.5, user-scalable=yes">
+    <style>
+        body {
+            display: flex;
+            background-image: url("/Gamingimg/123.jpg");
+            background-position: center center;
+        }
+
+        form {
+            text-align: center;
+        }
+
+        #container {
+            width: 400px;
+            height: 600px;
+            background-color: azure;
+            margin: 100px auto;
+            opacity: 0.8;
+            border: 5px solid purple;
+            border-radius: 10px;
+        }
+
+        input {
+            width: 50%;
+            margin-bottom: 10px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+
+        ::placeholder {
+            text-align: center;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+    </style>
+    <title>SignUp Form</title>
+</head>
+<body>
+    <div id="container">
+        <h1 style="text-align: center; background-color: purple;">Sign Up</h1>
+        <form action="/signup" method="post">
+            <div><input type="text" name="firstName" placeholder="Enter First Name" required></div><br>
+            <div><input type="text" name="lastName" placeholder="Enter Last Name" required></div><br>
+            <div><input type="email" name="email" placeholder="Enter Email" required></div><br>
+            <div><input type="password" name="password" placeholder="Enter Password" required></div><br>
+            <div><input type="password" name="confirmPassword" placeholder="Enter Confirm Password" required></div><br>
+            <div><input type="submit" value="Sign Up" style="font-size: 16px; background-color: purple; color: white; padding: 10px 20px; border: none; border-radius: 5px;"></div>
+            <p><b>Already Have An Account? <a href="/Signin">Sign In</a></b></p>
+        </form>
+    </div>
+</body>
+</html>

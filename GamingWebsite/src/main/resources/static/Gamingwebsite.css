@@ -1,0 +1,339 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	font-family: Century;
+}
+
+.account {
+	background-color: #070707;
+	text-align: end;
+}
+
+.account a {
+	display: block;
+	color: crimson;
+	font-weight: 500;
+	margin-right: 25px;
+	text-decoration: none;
+	transition: color 0.3s ease;
+	display: inline-block;
+	padding: 10px;
+}
+
+.account a:hover {
+	color: #fff;
+}
+
+.navbar {
+	position: fixed;
+	width: 100%;
+	z-index: 999;
+	padding: 30px 0;
+	font-family: 'Ubuntu', sans-serif;
+	transition: all 0.3s ease;
+}
+
+.navbar.sticky {
+	padding: 15px 0;
+	background: crimson;
+}
+
+.navbar .max-width {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.navbar .logo a {
+	color: #fff;
+	font-size: 35px;
+	font-weight: 600;
+}
+
+.navbar .logo a span {
+	color: crimson;
+	transition: all 0.3s ease;
+}
+
+.navbar.sticky .logo a span {
+	color: #fff;
+}
+
+.navbar .menu li {
+	list-style: none;
+	display: inline-block;
+}
+
+.navbar .menu li a {
+	display: block;
+	color: #fff;
+	font-size: 18px;
+	font-weight: 500;
+	margin-left: 25px;
+	transition: color 0.3s ease;
+}
+
+.navbar .menu li a:hover {
+	color: crimson;
+}
+
+.navbar.sticky .menu li a:hover {
+	color: #fff;
+}
+
+
+.menu-btn {
+	color: #fff;
+	font-size: 23px;
+	cursor: pointer;
+	display: none;
+}
+
+.main {
+    background-color: #000; /* Set the background color of the main section to black */
+}
+
+
+.main .logo a {
+	color: crimson;
+	font-weight: bold;
+	font-size: 35px;
+	font-weight: 600;
+	transition: color 0.3s ease;
+}
+
+.main .logo a span {
+	color: crimson;
+	transition: all 0.3s ease;
+}
+
+.main .logo a:hover {
+	color: #811c19 ;
+}
+
+.main img {
+	float: left;
+	width: 50px;
+	height: 50px;
+	margin-left: 350px;
+	margin-top: 0px;
+	margin-bottom: 10px;
+}
+
+
+
+.main .menu li {
+	list-style: none;
+	display: inline-block;
+	padding-right: 20px;
+
+}
+
+.main .menu li a {
+	display: block;
+	color: #fff;
+	font-size: 18px;
+	font-weight: 500;
+	margin-left: 25px;
+	margin-top: 10px;
+	text-decoration: none;
+	transition: color 0.3s ease;
+}
+
+.main .menu li a:hover {
+	color: crimson;
+}
+
+.search-box {
+	text-align: center;
+	width: 150px;
+	padding: 8px;
+	border: 3px solid #ccc;
+	border-radius: 4px;
+	outline: none;
+	margin-left: 50px;
+	transition: border-color 0.3s;
+}
+
+.search-box:focus {
+	border-color: crimson;
+}
+
+
+/* Example CSS for styling game cards */
+.services {
+	background-color: #111;
+	/* Set a background color for the services section */
+}
+
+.max-width {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+.title {
+	text-align: center;
+	color: crimson;
+	background-color:#3d3b3b ;
+}
+
+.serv-content {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.card {
+	width: 300px;
+	margin: 20px;
+	padding: 15px;
+	background-color: #111;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	text-align: center;
+}
+
+.services .serv-content .card:hover {
+	background: crimson;
+}
+
+.card img {
+	max-width: 100%;
+	height: auto;
+}
+
+.card {
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.card.enlarged {
+    transform: scale(1.2);
+    z-index: 10;
+    position: relative;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+.card.enlarged img {
+    transform: scale(1.1);
+}
+
+
+.box i {
+	font-size: 48px;
+	color: #3498db;
+}
+
+/* Add more styling as needed */
+
+
+.conditions {
+	font-size: 10px;
+	font-weight: bold;
+	text-align: center;
+	background-color: crimson;
+	color: black;
+	padding: 20px;
+}
+
+.reports {
+	background-color: coral;
+}
+
+.reports li {
+	list-style: none;
+	display: inline-block;
+	margin-left: 100px;
+}
+
+.reports li a {
+	display: block;
+	color: #070707;
+	font-size: 18px;
+	font-weight: bold;
+	margin-left: 25px;
+	margin-bottom: 10px;
+	text-decoration: none;
+	transition: color 0.3s ease;
+}
+
+.reports li a:hover {
+	color: crimson;
+}
+
+.join {
+	text-align: center;
+	background-color: #3498db;
+	color: #ffffff;
+	padding: 10px;
+}
+
+
+
+.icon {
+	text-decoration: none;
+	background-color: #3498db;
+	padding: 10px;
+	text-align: center;
+}
+
+.icon ion-icon {
+	color: #fff;
+	font-size: 40px;
+	padding-left: 14px;
+	padding-top: 10px;
+	margin-left: 50px;
+}
+
+.icon ion-icon:hover {
+	color: crimson;
+}
+
+.contact {
+	background-color: crimson;
+}
+
+.contact li {
+	list-style: none;
+	display: inline-block;
+	margin-left: 100px;
+	margin-inline-end: auto;
+}
+
+.contact li a {
+	text-align: center;
+	display: block;
+	color: #070707;
+	font-size: 15px;
+	font-weight: bold;
+	margin-left: 20px;
+	margin-bottom: 10px;
+	text-decoration: none;
+	transition: color 0.3s ease;
+	padding: 10px;
+}
+
+.contact li a:hover {
+	color: #fff;
+}
+
+.created {
+	background: #111;
+	padding: 15px 23px;
+	color: crimson;
+	text-align: center;
+}
+
+.created span a {
+	color: crimson;
+	text-decoration: none;
+}
+
+.created span a:hover {
+	color: crimson;
+}
